@@ -63,7 +63,7 @@ h4{
 }
 
 .intro{
-    background-image: url("/files/images/intro2.jpg");
+    background-image: url("./images/intro2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
