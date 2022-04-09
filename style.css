@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 34px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+
+.navbar{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 15% 0px 15%;
+    position: sticky;
+
+}
+
+.navis a{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    line-height: 50px;
+    padding:0 15px;
+
+}
+
+.logo{
+    padding-top: 15px;
+}
+.nav-icon{
+    padding-top: 15px;
+}
+
+.nav-icon a i{
+    color: white;
+    padding: 0 10px;
+}
+
+.intro{
+    background-image: url("/files/images/intro2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.intro .intro-text{
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    width: 370px;
+}
+
+.intro-text h1{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px px white;
+}
+
+.button{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    font-size: 13px;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: #111111;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .detail{
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+section .detail h1{
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+section .detail p{
+    width: 64%;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.allbox{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5em;
+
+}
+
+.allbox .box{
+    width: 25%;
+}
+
+.box img{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.box h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.box p{
+    color: #333333;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+
+}
+
+.box img:hover{
+    opacity: .8;
+    transition: .4s;
+}
+
+.allbox{
+    padding-bottom: 100px;
+}
+
+.allbox2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+.allbox2 .box2{
+    width: 24%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.allbox2 .box2:hover img{
+    transform: scale(1.1);
+}
+
+.allbox2 .box2 img{
+    width: 100%;
+    transition: .4s;
+    height: 291.68px;
+    overflow: hidden;
+}
+
+.box2 h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+.box2-heading h3{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.allbox2{
+    padding-bottom: 40px;
+}
+
+.sec2{
+    width: 80%;
+}
+
+.sec2box{
+    padding-bottom: 70px;
+}
+
+.sec2box .box2-heading{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.allnewbox{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
+
+.allnewbox .newbox{
+    width: 23%;
+
+}
+
+.allnewbox .newbox img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.allnewbox .newbox h5{
+    text-align: center;
+    padding-top: 8px;
+    color: #262525;
+    font-weight: 500;
+}
+.star{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.newbutton{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testem{
+    background-color: #eeeeee;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testem h2{
+    padding: 40px 0px;
+    text-align: center;
+    color: #333333;
+    font-size: 19px;
+}
+
+.testem img{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.testem p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #333333;
+    text-align: center;
+}
+
+.testem h4{
+    text-align: center;
+    color: #333333;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.serviceboxes{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+    padding-bottom: 50px;
+
+}
+
+.serviceboxes .serbox{
+    width: 24%;
+    padding: 10px;
+}
+
+.serbox{
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+}
+
+.serbox:hover{
+    color: #333333;
+    transition: .5s;
+}
+
+.serbox h4{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.serbox p{
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+
+.serlink{
+    background-color: rgb(247, 105, 105);
+    text-align: center;
+    color: white;
+    padding:15px 0;
+}
+
+.serlink h3{
+
+    display: inline;
+    font-weight: 500;
+    letter-spacing: .05em;
+
+}
+
+.serlink a{
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+}
+
+.serbox .fa-solid{
+    font-size: 48px;
+    float: left;
+    padding: 10px 20px 0 0;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer a{
+    display: block;
+}
+
+.footer .footerbox{
+    width: 20%;
+    padding-left: 20px;
+}
+
+.footerbox h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.footerbox a{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.footerbox a:hover{
+    text-decoration: underline;
+}
+
+.footerbox p{
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+#mailto{
+    display: inline;
+    text-decoration: none;
+}
+
+.socials{
+    padding-top: 10px;
+}
+#icon{
+    display: inline ;
+    padding: 0 5px;
+    font-size: 16px;
+}
+#icon:hover{
+    color: #747474;
+    transition: .6s;
+}
+
+
