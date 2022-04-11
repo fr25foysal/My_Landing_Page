@@ -1,0 +1,79 @@
+.navbar{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navis a{
+    padding: 0 5px;
+}
+
+.intro{
+    height: 250px;
+
+}
+
+.intro .intro-text{
+    position: absolute;
+    top: 170px;
+    left:3%;
+    width: 270px;
+}
+
+.intro-text h1{
+    color: white;
+    font-size: 24px;
+}
+
+.intro-text a{
+    display: none;
+}
+
+section{
+    width: 90%;
+}
+
+section .detail{
+    height: 280px;
+}
+
+.allbox{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.allbox .box{
+    width: 49%;
+    padding-top: 20px;
+}
+
+.allbox2 .box2{
+    width: 49%;
+    height: 340px;
+}
+
+.allbox2 .box2 img{
+    height: 300px ;
+}
+
+.allbox2{
+    gap: .6em;
+}
+
+.serviceboxes{
+    flex-direction: column;
+}
+
+.serviceboxes .serbox{
+    width: 100%;
+    border: none;
+}
+
+.sec2{
+    width: 100%;
+}
+
+.footer{
+    flex-direction: column;
+}
